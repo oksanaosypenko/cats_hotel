@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat's hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <a class="logo__link">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="navbar">
+                        <li class="navbar__item"><a class="navbar__link" href="#">Почему мы?</a> </li>
+                        <li class="navbar__item"><a class="navbar__link" href="#">Номера</a> </li>
+                        <li class="navbar__item"><a class="navbar__link" href="#">Отзывы</a> </li>
+                        <li class="navbar__item"><a class="navbar__link" href="#">Как нас найти</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="header__banner">
+        <img src="img/banner.png" alt="banner" class="banner__img">
+        <img src="img/mask.png" class="banner__mask">
+        <div class="banner__text">
+            <div class="text__wrapper">
+                <span class="text__text1">
+                    Санкт-Петербург</span>
+                <span class="text__text2">
+                    Котейка</span>
+                <span class="text__text3">
+                    Уютная гостиница для котов и кошек</span>
+
+            </div>
+            <div class="card-actions">
+                <a href="#" class="button">
+                    Забронировать
+                    <span class="button-icon">
+                        <svg class="icon">
+                            <use xlink:href="symbol/symbol-defs.svg#icon-white_paw"></use>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <h1 class="main__title">Почему мы?</h1>
+        <svg class="icon">
+            <use xlink:href="symbol-defs.svg#icon-background_paw"></use>
+        </svg>
+        <div class="container">
+            <div class="grid">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <use xlink:href="symbol-defs.svg#icon-icon01"></use>
+                            </svg>
+                        </span>
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Комфортная температура</div>
+                            <div class="grid-item-description">Во всех номерах поддерживается комфортная температура в
+                                пределах
+                                23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру. </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <use xlink:href="symbol-defs.svg#icon-icon02"></use>
+                            </svg>
+                        </span>
+
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Видеонаблюдение</div>
+                            <div class="grid-item-description">Мы предоставляем доступ в нашу систему. Вы сможете
+                                следить
+                                за своим питомцем со своего смартфона или компьютера.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <use xlink:href="symbol-defs.svg#icon-icon03"></use>
+                            </svg>
+                        </span>
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Услуги Зоотакси</div>
+                            <div class="grid-item-description">Мы приедем за вашим питомцем в любой район
+                                Санкт-Петербурга.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <!-- <use xlink:href="symbol-defs.svg#icon-icon04"></use> -->
+                                <use xlink:href="symbol-defs.svg#icon-icon041"></use>
+                            </svg>
+                        </span>
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Сбалансированное питание</div>
+                            <div class="grid-item-description">Вы можете привезти свой корм
+                                или доверить рацион своего
+                                питомца нашим профессионалам.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <use xlink:href="symbol-defs.svg#icon-icon05"></use>
+                            </svg>
+                        </span>
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Ежедневные прогулки</div>
+                            <div class="grid-item-description">По вашему желанию мы выгуливаем вашего питомца два раза в
+                                день
+                                на специализированной закрытой территории.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <span class="grid-item-icon">
+
+                            <svg class="icon">
+                                <use xlink:href="symbol-defs.svg#icon-icon06"></use>
+                            </svg>
+                        </span>
+                        <div class="grid-item-text">
+                            <div class="grid-item-title">Лучшие ветеринары</div>
+                            <div class="grid-item-description">В гостинице 24 часа дежурит ветеринарный врач, который
+                                окажет любую
+                                помощь в случае необходимости.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="other__rooms">
+            <h1 class="main__title">Номера</h1>
+            <div class="rooms__items">
+                <div class="room">
+                    <div class="room__wrapper">
+                        <div class="slideshow-container">
+                            <div class="room-image">
+                                <img src="img/cat.png" alt="cat">
+                            </div>
+                            <div class="carousel-bar">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                        <div class="room-text">
+                            <h4 class="room-text__title">Эконом плюс</h4>
+                            <ul class="room-text-list">
+
+                                <li class="room-text-list__item"> <svg class="icon">
+                                        <use xlink:href="symbol-defs.svg#icon-dot"></use>
+                                    </svg> Площадь - 0,90 м2</li>
+
+                                <li class="room-text-list__item"> <svg class="icon">
+                                        <use xlink:href="symbol-defs.svg#icon-dot"></use>
+                                    </svg> Размеры (ШхГхВ) — 90х100х180 см</li>
+                                <li class="room-text-list__item"> <svg class="icon">
+                                        <use xlink:href="symbol-defs.svg#icon-dot"></use>
+                                    </svg> Цена за сутки: 200₽</li>
+                            </ul>
+                            <a href="#" class="button button-invert">
+                                Забронировать
+                                <span class="button-icon">
+                                    <svg class="icon">
+                                        <use xlink:href="symbol-defs.svg#icon-button_paw"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <section class="section__feedback">
+        <h3 class="main__title">Отзывы</h3>
+        <div class="section__wrapper  feedback__wrapper">
+
+            <div class="feedback-items">
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+
+                        <div class="feedback__content">
+                            <p class="feedback__text">
+                                <img src="img/quote.png">
+                                Первый раз пришлось оставить нашего котика в гостинице, очень
+                                переживали. Администратор Мария каждый день высылала нам фото нашего питомца,
+                                рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Валерия Гришаева</span>
+                                <span class="feedback__date">15 ноября, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+                        <div class="feedback__content">
+                            <p class="feedback__text">
+
+
+                                <img src="img/quote.png">
+                                Гостиницу для питомцев нам
+                                посоветовали
+                                друзья. Они всегда
+                                оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о
+                                питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Екатерина Минаева</span>
+                                <span class="feedback__date">10 октября, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback-item__wrapper">
+
+                        <div class="feedback__content">
+                            <p class="feedback__text"> <img src="img/quote.png"> Мой кот — настоящая привереда, угодить
+                                ему сложно. У меня были
+                                особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал
+                                по видео за питомцем со своего телефона, это очень удобно. </p>
+                            <div class="feedback__footer">
+                                <span class="feedback__author">Павел Нечаев</span>
+                                <span class="feedback__date">2 августа, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="header  footer">
+        <div class="container">
+            <div class="header__wrapper  footer__wrapper">
+                <div class="logo">
+                    <div class="logo__wrapper">
+                        <a class="logo__link" href="#">
+                            <div class="logo__image">
+                                <img src="img/logo.png" alt="logo">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="navbar">
+                        <li class="navbar__item"><a class="link navbar__link" href="#">Почему мы?</a></li>
+                        <li class="navbar__item"><a class="link navbar__link" href="#">Номера</a></li>
+                        <li class="navbar__item"><a class="link navbar__link" href="#">Отзывы</a></li>
+                        <li class="navbar_item"><a class="link navbar__link" href="#">Как нас найти</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__text">
+                <div class="footer__copyright">&copy; 2019 Все права защищены</div>
+                <div class="footer__policy">Политика конфиденциальности</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
